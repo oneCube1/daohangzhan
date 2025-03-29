@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="开发者导航站 - 为网站开发者提供的精选工具与资源，包含需求调研、上站工具、竞品调研、上站模板和资讯分类。">
+    <meta name="keywords" content="开发者工具,网站开发,导航站,域名工具,网站模板,SEO工具,开发资源">
+    <meta name="author" content="开发者导航站">
+    <title>开发者导航站 - 精选开发工具与资源</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC5ElEQVRYR8WXS2gTURSG/zOTNGmaNgiV0pTYRdWFoBSrQlFciLgQEcGF4kIQxCiIGxERcaEbceHGja4EFyIiuHIjgqALQRA3IoJYUbS0k8Q0Wl8xpnmMczNn0iSdyUySmeCdzc055/v/c+69Z+4QlrlomfXx/wGEfYFdyr4djUopKWxgWQCy2ewGKeVppdQ+ItoRdEgp5V0hxHUiuhjUJxDAMJu7lVJ3AWTr76WUPxzHeVoul+csy7qglLrc6Hddd1RK+bher28SkRQAnLKU8gjn/E5LgEwmc9i27QcAUu6NlPKS53knfd+fq9VqeSnlAynl/vl7KeVVzvnZum2j3xkA50zTvNESIJvNDkopnwFIujeO4+yybftFPUDDveu6G5RSrwAk3N80Go09o6OjfzQcxtPAzTCMo60AMpZlPQMQBzChlNrNOX9UD9AGoJRaiRDPAazkwGHO+a0ggJuGYZxoBpDL5fYuLCy8BgAp5RDn/G1bgH8QAwBmAUwD2M2EKPWP1ufpCbFXCPFpKTIA14QQpwMA7rVDtAO4Mj8//2NsbOwXgHFm2/andgkwDAOmaU4vCeDjJpTcGKwJAIQQ9+sJaABYNUmxRB3oA7CxoQ5UAIy0qwO+70+1Asi3S4DjOAsNV1AoFB4xpdQMANb2AcK/gmw2+31hYaHHtu1XSqnNRAT/b69gEkAKwCchxM5isfiVARgEUGx4BY+I6EDAsTIA7COiUktALpfrs237DYC4lPK4aZq3mwFUKpW+QqHw0zTNPADWE9a24P1+MplkjaiY53knOed3mx6jtm0PEtFTpdQg5/xhJ5PRtu0hInoihNhhmuaToL6hZz+A8Uql0l8oFGYAVJRS+zjnbzoF8H1/WEo5REQF0zTDvoHhEGx0dPQbK0iJRGK953kjnudtJaJ9RPSpUwDf94+xrQshToV9/boqRPXqWa1WD8RisTE2UJQArmmatzoZNnQbXs7flL6KPWrQFUIQ0akoQCK3aRok6tplA0QV+hvt9JwUt9Q10QAAAABJRU5ErkJggg==">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>开发者导航站</h1>
+            <p>为网站开发者提供的精选工具与资源</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索工具与资源...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="container">
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">全部</button>
+            <button class="tab-btn" data-category="research">需求调研</button>
+            <button class="tab-btn" data-category="tools">上站必备</button>
+            <button class="tab-btn" data-category="competitor">竞品调研</button>
+            <button class="tab-btn" data-category="templates">上站模板</button>
+            <button class="tab-btn" data-category="info">资讯</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="cards-container">
+            <!-- 卡片将通过JavaScript动态生成 -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 开发者导航站 | <a href="https://github.com/" target="_blank">GitHub项目地址</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
