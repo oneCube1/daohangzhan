@@ -100,7 +100,7 @@ const sitesData = [
     },
     {
         title: "Vercel",
-        url: "https://vercel.com",
+        url: "https://vercel.com/templates",
         description: "极速部署前端项目，支持Serverless函数。",
         longDescription: "自动优化静态资产和图像，改善网站性能。集成强大的CI/CD工作流，实现前端代码的无缝部署和版本控制。",
         category: "tools",
